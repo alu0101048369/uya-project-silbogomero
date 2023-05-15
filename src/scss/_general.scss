@@ -1,0 +1,38 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+th {
+  font-weight: bold !important;
+}
+
+ul.txt-list li {
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.responsive-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+@include media-breakpoint-up(sm) {
+  .w-sm-auto {
+    width: auto !important;
+  }
+}

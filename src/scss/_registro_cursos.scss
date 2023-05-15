@@ -1,0 +1,7 @@
+@include media-breakpoint-up(sm) {
+  .registro-cursos-banner {
+    max-height: 400px;
+    object-fit: cover;
+    object-position: 0 0;
+  }
+}

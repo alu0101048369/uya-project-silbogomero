@@ -1,0 +1,25 @@
+.custom-card {
+  scroll-margin-top: 60px;
+  li a, p a {
+    font-style: italic;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.quienes-somos-img {
+  height: 150px;
+}
+
+@include media-breakpoint-up(sm) {
+  .quienes-somos-img {
+    height: 300px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .quienes-somos-img {
+    height: 100%;
+  }
+}

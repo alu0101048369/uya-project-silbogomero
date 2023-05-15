@@ -1,0 +1,27 @@
+#fb-loader {
+  height: 70vh;
+  width: 100%;
+  max-width: 500px;
+}
+
+.accept-button {
+  width: 100%;
+}
+
+.fb-logo {
+  display: none;
+  max-height: 126px;
+}
+
+.fb-color {
+  color: #3b5998;
+}
+
+@include media-breakpoint-up(sm) {
+  .fb-logo {
+    display: flex;
+  }
+  .accept-button {
+    width: auto;
+  }
+}

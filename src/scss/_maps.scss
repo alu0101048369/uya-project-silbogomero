@@ -1,0 +1,9 @@
+.maps-wrapper {
+  min-height: 250px;
+}
+
+@include media-breakpoint-up(lg) {
+  .maps-wrapper {
+    min-height: auto;
+  }
+}

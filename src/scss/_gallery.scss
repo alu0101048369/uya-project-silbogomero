@@ -1,0 +1,9 @@
+.gallery-img {
+  height: 150px;
+}
+
+@include media-breakpoint-up(sm) {
+  .gallery-img {
+    height: 200px;
+  }
+}
